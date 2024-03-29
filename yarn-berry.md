@@ -1,3 +1,5 @@
+# yarn-berry
+
 ## 기존 yarn classic ( yarn 1.x ) 문제점
 
 기존의 node_ moudles는 많은 파일들이 매우 큰 공간을 차지하고 의존성 확인이 어려움.
