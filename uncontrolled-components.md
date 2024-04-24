@@ -9,7 +9,7 @@
 
 ```jsx
 export default function App() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(""); 
   const onChange = (e) => {
     setInput(e.target.value);
   };
@@ -17,7 +17,8 @@ export default function App() {
   return (
     <div className="App">
       <input onChange={onChange} />
-    </div>);
+    </div>
+  );
 }
 ```
 
