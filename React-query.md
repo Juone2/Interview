@@ -73,6 +73,12 @@ queryFn() 함수가 현재 실행되는 중인지 아닌지를 나타낸다. →
 
 ## 참고
 
+🙌 「if(kakao)2021 - 카카오페이 프론트엔드 개발자들이 React Query를 선택한 이유」 세줄요약 🤟
+
+React Query는 React Application에서 서버 상태를 불러오고, 캐싱하며, 지속적으로 동기화하고 업데이트하는 작업을 도와주는 라이브러리입니다.
+복잡하고 장황한 코드가 필요한 다른 데이터 불러오기 방식과 달리 React Component 내부에서 간단하고 직관적으로 API를 사용할 수 있습니다.
+더 나아가 React Query에서 제공하는 캐싱, Window Focus Refetching 등 다양한 기능을 활용하여 API 요청과 관련된 번잡한 작업 없이 “핵심 로직”에 집중할 수 있습니다.
+
 [[React-Query] Query Status, Fetch Status](https://velog.io/@muscatcola/React-Query-Query-Status-Fetch-Status)
 
 [React Query에서 staleTime과 cacheTime의 차이](https://velog.io/@yrnana/React-Query에서-staleTime과-cacheTime의-차이)
