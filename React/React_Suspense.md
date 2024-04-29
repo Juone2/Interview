@@ -1,3 +1,4 @@
+```
 import { useQuery } from '@tanstack/react-query';
 import { Suspense } from 'react';
 import { BeatLoader } from 'react-spinners';
@@ -32,3 +33,4 @@ const App = () => {
 };
 
 export default App;
+```
