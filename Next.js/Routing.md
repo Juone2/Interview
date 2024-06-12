@@ -11,7 +11,7 @@
 
 → `‘use client’` 를 사용하여 클라이언트 컴포넌트 생성 가능
 
-## App Router 파일 컨벤션 및 역할[](https://cracking-next.vercel.app/docs/routing#%EC%95%B1-%EB%9D%BC%EC%9A%B0%ED%84%B0-%ED%8C%8C%EC%9D%BC-%EC%BB%A8%EB%B2%A4%EC%85%98-%EB%B0%8F-%EC%97%AD%ED%95%A0)
+## App Router 파일 컨벤션 및 역할
 
 앱 라우터 폴더에는 다음 특정 파일들을 생성할 수 있다.
 
@@ -25,15 +25,12 @@
 - `template`: 레이아웃 컴포넌트가 다시 그려질 때 표시될 UI
 - `default` : 병렬 라우팅 처리시 표시할 기본 UI
 
-![파일들의 위계 표현](https://prod-files-secure.s3.us-west-2.amazonaws.com/858ac9c3-9dda-4548-9019-2e429c4b0ad0/451625f2-2a95-4dbc-9314-0e6f691c73a3/Untitled.png)
+> 위 특정 파일들의 위계 표현
+![image](https://github.com/Juone2/Interview/assets/103497968/12e36cb8-ffde-479d-8bdc-9947d332b4bf)
+> 라우터 중첩 시키기
+![image](https://github.com/Juone2/Interview/assets/103497968/266cddf9-d304-48a2-852e-049d23b62081)
 
-파일들의 위계 표현
-
-![라우터 중첩 시키기](https://prod-files-secure.s3.us-west-2.amazonaws.com/858ac9c3-9dda-4548-9019-2e429c4b0ad0/545cdce3-cd81-4c86-be09-294e8de31237/Untitled.png)
-
-라우터 중첩 시키기
-
-## App Router 장점[](https://cracking-next.vercel.app/docs/routing#%EC%95%B1-%EB%9D%BC%EC%9A%B0%ED%84%B0-%EC%9E%A5%EC%A0%90)
+## App Router 장점
 
 앱 라우터의 장점은 `app` 폴더 밑에 라우터 파일 뿐만 아니라 라우터에서 사용될 파일들을 가까이 배치할 수 있는 장점이 있다.
 
@@ -41,11 +38,11 @@
 - 라이브러리 파일
 - API 파일
 
-![페이지 라우터에서 지원 X → `pages` 폴더 안에 들어간 컴포넌트 파일에 대해 모든 라우팅을 구성해주기 때문.](https://prod-files-secure.s3.us-west-2.amazonaws.com/858ac9c3-9dda-4548-9019-2e429c4b0ad0/e48c7c50-5e10-4156-b9ec-7d7a40806f65/Untitled.png)
+> 페이지 라우터에서 지원 X → `pages` 폴더 안에 들어간 컴포넌트 파일에 대해 모든 라우팅을 구성해주기 때문.
+![image](https://github.com/Juone2/Interview/assets/103497968/dbbee3bf-6773-47d2-89cc-e6c0ea8375c9)
 
-페이지 라우터에서 지원 X → `pages` 폴더 안에 들어간 컴포넌트 파일에 대해 모든 라우팅을 구성해주기 때문.
 
-## 앱 라우터와 페이지 라우터의 가장 큰 차이점[](https://cracking-next.vercel.app/docs/routing#%EC%95%B1-%EB%9D%BC%EC%9A%B0%ED%84%B0%EC%99%80-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%9D%BC%EC%9A%B0%ED%84%B0%EC%9D%98-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%B0%A8%EC%9D%B4%EC%A0%90)
+## 앱 라우터와 페이지 라우터의 가장 큰 차이점
 
 앱 라우터는 같은 관심사를 최대한 가까이 배치할 수 있게 되었습니다. 페이지 라우터는
 
